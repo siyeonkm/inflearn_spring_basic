@@ -1,4 +1,4 @@
-package hello.core.member;
+package section2.shopBasic.member;
 
 public interface MemberService {
 

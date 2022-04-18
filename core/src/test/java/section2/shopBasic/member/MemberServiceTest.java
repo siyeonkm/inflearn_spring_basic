@@ -1,4 +1,4 @@
-package hello.core.member;
+package section2.shopBasic.member;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;

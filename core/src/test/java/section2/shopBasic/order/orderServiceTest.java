@@ -1,9 +1,9 @@
-package hello.core.order;
+package section2.shopBasic.order;
 
-import hello.core.member.Grade;
-import hello.core.member.Member;
-import hello.core.member.MemberService;
-import hello.core.member.MemberServiceImpl;
+import section2.shopBasic.member.Grade;
+import section2.shopBasic.member.Member;
+import section2.shopBasic.member.MemberService;
+import section2.shopBasic.member.MemberServiceImpl;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 

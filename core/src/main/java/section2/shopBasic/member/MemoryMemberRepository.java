@@ -1,4 +1,4 @@
-package hello.core.member;
+package section2.shopBasic.member;
 
 import java.util.HashMap;
 import java.util.Map;

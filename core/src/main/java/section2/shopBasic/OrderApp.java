@@ -1,12 +1,12 @@
-package hello.core;
+package section2.shopBasic;
 
-import hello.core.member.Grade;
-import hello.core.member.Member;
-import hello.core.member.MemberService;
-import hello.core.member.MemberServiceImpl;
-import hello.core.order.Order;
-import hello.core.order.OrderService;
-import hello.core.order.OrderServiceImpl;
+import section2.shopBasic.member.Grade;
+import section2.shopBasic.member.Member;
+import section2.shopBasic.member.MemberService;
+import section2.shopBasic.member.MemberServiceImpl;
+import section2.shopBasic.order.Order;
+import section2.shopBasic.order.OrderService;
+import section2.shopBasic.order.OrderServiceImpl;
 
 public class OrderApp {
 

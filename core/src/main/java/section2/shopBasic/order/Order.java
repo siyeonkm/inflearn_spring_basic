@@ -1,4 +1,4 @@
-package hello.core.order;
+package section2.shopBasic.order;
 
 public class Order {
 
