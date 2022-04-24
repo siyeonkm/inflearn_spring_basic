@@ -1,5 +1,6 @@
 package section3.shopPro;
 
+import section3.shopPro.discount.DiscountPolicy;
 import section3.shopPro.discount.FixDiscountPolicy;
 import section3.shopPro.member.MemberService;
 import section3.shopPro.member.MemberServiceImpl;
@@ -11,11 +12,19 @@ import section3.shopPro.order.OrderServiceImpl;
 public class AppConfig {
 
     public MemberService memberService() {
-        return new MemberServiceImpl(new MemoryMemberRepository());
+        return new MemberServiceImpl(getMemberRepository());
+    }
+
+    private MemoryMemberRepository getMemberRepository() {
+        return new MemoryMemberRepository();
     }
 
     public OrderService orderService() {
-        return new OrderServiceImpl(new MemoryMemberRepository(), new FixDiscountPolicy());
+        return new OrderServiceImpl(getMemberRepository(), discountPolicy());
+    }
+
+    public DiscountPolicy discountPolicy() {
+        return new FixDiscountPolicy();
     }
 
 }
