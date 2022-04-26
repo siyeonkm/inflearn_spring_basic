@@ -1,10 +1,10 @@
-package section3.shopSpring.discount;
+package section4.shopContainer.discount;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import section3.shopSpring.member.Grade;
-import section3.shopSpring.member.Member;
+import section4.shopContainer.member.Grade;
+import section4.shopContainer.member.Member;
 
 class RateDiscountPolicyTest {
 

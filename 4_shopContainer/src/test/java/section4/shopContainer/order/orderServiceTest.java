@@ -1,12 +1,14 @@
-package section3.shopSpring.order;
+package section4.shopContainer.order;
 
 import org.junit.jupiter.api.BeforeEach;
-import section3.shopSpring.AppConfig;
-import section3.shopSpring.member.Grade;
-import section3.shopSpring.member.Member;
-import section3.shopSpring.member.MemberService;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
+import section4.shopContainer.AppConfig;
+import section4.shopContainer.member.Grade;
+import section4.shopContainer.member.Member;
+import section4.shopContainer.member.MemberService;
+import section4.shopContainer.order.Order;
+import section4.shopContainer.order.OrderService;
 
 public class orderServiceTest {
 

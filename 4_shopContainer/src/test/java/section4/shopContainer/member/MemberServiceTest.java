@@ -1,9 +1,12 @@
-package section3.shopSpring.member;
+package section4.shopContainer.member;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import section3.shopSpring.AppConfig;
+import section4.shopContainer.AppConfig;
+import section4.shopContainer.member.Grade;
+import section4.shopContainer.member.Member;
+import section4.shopContainer.member.MemberService;
 
 public class MemberServiceTest {
 
