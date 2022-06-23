@@ -1,8 +1,10 @@
 package section6.shopBeanAuto.discount;
 
+import org.springframework.stereotype.Component;
 import section6.shopBeanAuto.member.Grade;
 import section6.shopBeanAuto.member.Member;
 
+@Component
 public class RateDiscountPolicy implements DiscountPolicy{
     private int discountPercent = 10;
 
