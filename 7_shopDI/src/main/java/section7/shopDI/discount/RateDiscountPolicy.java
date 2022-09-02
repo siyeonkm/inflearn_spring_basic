@@ -1,8 +1,10 @@
 package section7.shopDI.discount;
 
+import org.springframework.stereotype.Component;
 import section7.shopDI.member.Grade;
 import section7.shopDI.member.Member;
 
+@Component
 public class RateDiscountPolicy implements DiscountPolicy{
     private int discountPercent = 10;
 
