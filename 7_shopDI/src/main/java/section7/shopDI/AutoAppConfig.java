@@ -9,7 +9,6 @@ import section7.shopDI.member.MemoryMemberRepository;
 
 @Configuration
 @ComponentScan(
-        basePackages = "section7.shopDI.member",
         excludeFilters = @ComponentScan.Filter(type = FilterType.ANNOTATION, classes = Configuration.class)
 )
 public class AutoAppConfig {
@@ -18,8 +17,8 @@ public class AutoAppConfig {
     //구현체들쪽에서 @autowired를 통해서!
 
     //수동빈 vs 자동빈 충돌
-    @Bean(name = "memoryMemberRepository")
+    /*@Bean(name = "memoryMemberRepository")
     MemberRepository memberRepository() {
         return new MemoryMemberRepository();
-    }
+    }*/
 }
